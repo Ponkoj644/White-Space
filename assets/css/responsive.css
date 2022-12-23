@@ -1,0 +1,45 @@
+@media (max-width: 991px) {
+  /* Header CSS */
+  .header-area .theme-button {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .header-area .theme-button-two {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .header-area .nav-link {
+    padding: 16px 0 !important;
+  }
+  .header-area .nav-link {
+    position: relative;
+  }
+  .header-area .nav-link::after {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /* Hero area CSS */
+  .hero-area {
+    padding: 80px 16px;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-text h3 {
+    font-size: 36px;
+  }
+  .hero-text p {
+    margin: 25px 0;
+  }
+  .hero-area .theme-button {
+    margin-bottom: 100px;
+  }
+}
